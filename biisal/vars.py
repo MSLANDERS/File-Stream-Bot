@@ -19,7 +19,7 @@ class Var(object):
     API_HASH = str(getenv('API_HASH', ''))
     BOT_TOKEN = str(getenv('BOT_TOKEN' , ''))
     PICS = (environ.get('PICS', 'https://envs.sh/jUp.jpg')).split()
-    name = str(getenv('name', 'ProFilesToLink_Bot'))
+    name = str(getenv('name', 'FilesToLinkPro_Bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002456017788'))
