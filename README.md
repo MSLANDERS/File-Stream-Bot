@@ -1,12 +1,12 @@
 <h1 align="center">
- <b><a href="https://youtu.be/bXWJz50NDkE" target="/blank">File-Stream-Bot</a>
+ <b><a href="https://telegram.me/FilesToLinkPro_bot" target="/blank">File-Stream-Bot</a>
 </h1>
 
 <p align="center">🩷 Thanks for Being Here 🩷</p>
 
 
 
-### 🥰 FEATURES
+### FEATURES
 
 <details><summary>Tap On Me For Bot Features</summary>
 
@@ -22,12 +22,12 @@
 - All unwanted code removed.
 - Fully modified repo
 - Deploy To Koyeb + Heroku + Railway
-- [Developer support](https://telegram.me/TechifySupport) 24x7
+- [Developer support](https://telegram.me/mslanders_help) 24x7
 - And many more... 
 </details>
 
 
-### 🔥 VARIABLES
+### VARIABLES
 
 <details><summary>Tap On Me For Environment Variable</summary>
 
@@ -56,21 +56,16 @@
 
 <details><summary>Tap On Me For Credit</summary>
 
+💗 [MSLANDERS](https://github.com/MSLANDERS)
 
 💝 [TechifyBots](https://github.com/TechifyBots)
 
 💘 [Biisal](https://github.com/biisal)
-
-💖 [Adarsh](https://github.com/adarsh-goel)
 </details>
 
 ### 💕 CONTACT DEVELOPER
 
-- [Rahul](https://telegram.me/TechifySupport)
-
-### ☕ BUY ME A COFFEE
-- [PayPal](https://paypal.me/TechifyBots)
-- [UPI](https://TechifyBots.github.io/Donate)
+- [AMANI](https://telegram.me/MSLANDERS_HELP)
 
 ### 📌 NOTE
 
