@@ -1,4 +1,4 @@
-# (c) TechifyBots @biisal @adarsh
+# (c) TechifyBots tg : MSLANDERS
 
 import random
 from biisal.bot import StreamBot
@@ -70,7 +70,7 @@ async def start(b, m):
     caption= TechifyBots.format(m.from_user.mention(style="md")),
     reply_markup=InlineKeyboardMarkup(
                 [[
-                    InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ➕", url="https://telegram.me/ProFilesToLink_Bot?startchannel&admin=post_messages+edit_messages+delete_messages")
+                    InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ➕", url="https://telegram.me/FilesToLinkPro_Bot?startchannel&admin=post_messages+edit_messages+delete_messages")
                 ],[
                     InlineKeyboardButton("Aʙᴏᴜᴛ 👨‍💻", callback_data="about"),
                     InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🍁", callback_data="help")
@@ -194,7 +194,7 @@ async def cb_handler(client, query):
         caption= TechifyBots.format(query.from_user.mention(style="md")),
         reply_markup=InlineKeyboardMarkup(
                 [[
-                    InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ➕", url="https://telegram.me/ProFilesToLink_Bot?startchannel&admin=post_messages+edit_messages+delete_messages")
+                    InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ➕", url="https://telegram.me/FilesToLinkPro_Bot?startchannel&admin=post_messages+edit_messages+delete_messages")
                 ],[
                     InlineKeyboardButton("Aʙᴏᴜᴛ 👨‍💻", callback_data="about"),
                     InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🍁", callback_data="help")
@@ -204,7 +204,7 @@ async def cb_handler(client, query):
 
     elif data == "about":
         await query.message.edit_caption(
-            caption=f"<b>ᴍʏ ɴᴀᴍᴇ : <a href='https://telegram.me/ProFilesToLink_Bot'>ʟɪɴᴋ sᴛʀᴇᴀᴍ ʀᴏʙᴏᴛ</a>\nʜᴏsᴛᴇᴅ ᴏɴ : ᴋᴏʏᴇʙ\nᴅᴀᴛᴀʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ\nʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 𝟹\nᴍʏ ᴄʀᴇᴀᴛᴏʀ : <a href='https://telegram.me/mslanderstalk_bot'>Aᴍᴀɴɪ</a></b>",
+            caption=f"<b>ᴍʏ ɴᴀᴍᴇ : <a href='https://telegram.me/FilesToLinkPro_Bot'>ʟɪɴᴋ sᴛʀᴇᴀᴍ ʀᴏʙᴏᴛ</a>\nʜᴏsᴛᴇᴅ ᴏɴ : ᴋᴏʏᴇʙ\nᴅᴀᴛᴀʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ\nʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 𝟹\nᴍʏ ᴄʀᴇᴀᴛᴏʀ : <a href='https://telegram.me/mslanderstalk_bot'>Aᴍᴀɴɪ</a></b>",
             reply_markup=InlineKeyboardMarkup(
                 [[
                      InlineKeyboardButton("Hᴏᴍᴇ 🪔", callback_data="start"),
@@ -234,7 +234,7 @@ async def cb_handler(client, query):
         if len(str(user_id)) == 10:
             reason = str(data.split("_")[2])
             try:
-                await client.send_message(user_id , f"<b>ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ ʙʏ [ʀᴀʜᴜʟ](https://telegram.me/mslanderstalk_bot)\nʀᴇᴀsᴏɴ : {reason}</b>")
+                await client.send_message(user_id , f"<b>ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ ʙʏ [ᴀᴍᴀɴɪ](https://telegram.me/mslanderstalk_bot)\nʀᴇᴀsᴏɴ : {reason}</b>")
                 await query.message.edit(f"<b>Aʟᴇʀᴛ sᴇɴᴛ ᴛᴏ <code>{user_id}</code>\nʀᴇᴀsᴏɴ : {reason}</b>")
             except Exception as e:
                 await query.message.edit(f"<b>sʀʏ ɪ ɢᴏᴛ ᴛʜɪs ᴇʀʀᴏʀ : {e}</b>")
@@ -251,7 +251,7 @@ async def cb_handler(client, query):
         user_id = int(user_id.replace(' ' , ''))
         if len(str(user_id)) == 10:
             try:
-                unban_text = "<b>ʜᴜʀʀᴀʏ..ʏᴏᴜ ᴀʀᴇ ᴜɴʙᴀɴɴᴇᴅ ʙʏ [ʀᴀʜᴜʟ](https://telegram.me/mslanderstalk_bot)</b>"
+                unban_text = "<b>ʜᴜʀʀᴀʏ..ʏᴏᴜ ᴀʀᴇ ᴜɴʙᴀɴɴᴇᴅ ʙʏ [ᴀᴍᴀɴɪ](https://telegram.me/mslanderstalk_bot)</b>"
                 await client.send_message(user_id , unban_text)
                 await query.message.edit(f"<b>Uɴʙᴀɴɴᴇᴅ Aʟᴇʀᴛ sᴇɴᴛ ᴛᴏ <code>{user_id}</code>\nᴀʟᴇʀᴛ ᴛᴇxᴛ : {unban_text}</b>")
             except Exception as e:
