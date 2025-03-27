@@ -207,9 +207,9 @@ async def cb_handler(client, query):
             caption=f"<b>ᴍʏ ɴᴀᴍᴇ : <a href='https://telegram.me/FilesToLinkPro_Bot'>ʟɪɴᴋ sᴛʀᴇᴀᴍ ʀᴏʙᴏᴛ</a>\nʜᴏsᴛᴇᴅ ᴏɴ : ᴋᴏʏᴇʙ\nᴅᴀᴛᴀʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ\nʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 𝟹\nᴍʏ ᴄʀᴇᴀᴛᴏʀ : <a href='https://telegram.me/mslanderstalk_bot'>Aᴍᴀɴɪ</a></b>",
             reply_markup=InlineKeyboardMarkup(
                 [[
-                     InlineKeyboardButton("Hᴏᴍᴇ 🪔", callback_data="start"),
-                     InlineKeyboardButton("Cʟᴏsᴇ ⛔", callback_data="close")
-                  ]]
+                    InlineKeyboardButton("Hᴏᴍᴇ 🪔", callback_data="start"),
+                    InlineKeyboardButton("Cʟᴏsᴇ ⛔", callback_data="close")
+                ]]
             )
         )
         
