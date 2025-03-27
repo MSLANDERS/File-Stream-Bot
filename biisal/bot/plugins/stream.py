@@ -46,7 +46,7 @@ msg_text ="""
 
 <b>⚠️ ᴛʜɪꜱ ʟɪɴᴋ ᴡɪʟʟ ᴇxᴘɪʀᴇ ᴀꜰᴛᴇʀ 𝟼 ʜᴏᴜʀꜱ</b>
 
-<b>❇️ ʙʏ : @TechifyBots</b>"""
+<b>❇️ ʙʏ : @MSLANDERS</b>"""
 
 @StreamBot.on_message((filters.private) & (filters.document | filters.video | filters.audio | filters.photo) , group=4)
 async def private_receive_handler(c: Client, m: Message):
@@ -62,7 +62,7 @@ async def private_receive_handler(c: Client, m: Message):
             if user.status == "kicked":
                 await c.send_message(
                     chat_id=m.chat.id,
-                    text="You are banned!\n\n  Contact Developer [Rahul](https://telegram.me/CallOwnerBot) he will help you.",
+                    text="You are banned!\n\n  Contact Developer [AMANI](https://telegram.me/MSLANDERSTALK_BOT) he will help you.",
                     disable_web_page_preview=True
                 )
                 return 
@@ -74,7 +74,7 @@ async def private_receive_handler(c: Client, m: Message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("ᴊᴏɪɴ ɴᴏᴡ 🚩", url=f"https://telegram.me/{Var.UPDATES_CHANNEL}")
+                            InlineKeyboardButton("📢 Jᴏɪɴ Nᴏᴡ", url=f"https://telegram.me/{Var.UPDATES_CHANNEL}")
                         ]
                     ]
                 ),
@@ -84,7 +84,7 @@ async def private_receive_handler(c: Client, m: Message):
             await m.reply_text(e)
             await c.send_message(
                 chat_id=m.chat.id,
-                text="sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ. ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [ʙᴏss](https://telegram.me/CallOwnerBot)",
+                text="sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ. ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [ʙᴏss](https://telegram.me/mslanderstalk_bot)",
                 disable_web_page_preview=True
             )
             return
@@ -114,8 +114,8 @@ async def private_receive_handler(c: Client, m: Message):
             text=msg_text.format(get_name(log_msg), humanbytes(get_media_file_size(m))),
             quote=True,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("• ꜱᴛʀᴇᴀᴍ •", url=stream),
-                 InlineKeyboardButton("• ᴅᴏᴡɴʟᴏᴀᴅ •", url=download)],
+                [InlineKeyboardButton("ꜱᴛʀᴇᴀᴍ 🖥", url=stream),
+                 InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ 🚀", url=download)],
                 [InlineKeyboardButton('🧿 ᴡᴀᴛᴄʜ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ 🖥', web_app=WebAppInfo(url=stream))]
             ])
         )
@@ -169,8 +169,8 @@ async def channel_receive_handler(bot, broadcast):
             chat_id=broadcast.chat.id,
             message_id=broadcast.id,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("ꜱᴛʀᴇᴀᴍ 🔺", url=stream),
-                 InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ 🔻", url=download)]
+                [InlineKeyboardButton("ꜱᴛʀᴇᴀᴍ 🖥", url=stream),
+                 InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ 🚀", url=download)]
             ])
         )
     except FloodWait as w:
